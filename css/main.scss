@@ -8,17 +8,16 @@ body {
 	height: 100%;
 }
 
-.content {
+.contact {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 100%;
-	background-image: url(../../img/bgwaves.gif);
 	background-size: cover;
 	background-position: center;
 }
 
-.content:before {
+.contact:before {
 	content: '';
 	display: block;
 	background: rgba(0, 0, 0, 1);
@@ -28,11 +27,11 @@ body {
 	transition: all 3s ease;
 }
 
-.content--bg {
+.contact--bg {
 	
 }
 
-.content--bg:before {
+.contact--bg:before {
 	background: rgba(0, 0, 0, 0.85);
 }
 
@@ -42,14 +41,14 @@ span {
 	font-size: 14px;
 }
 
-.contact_me {
+.me {
 	cursor: pointer;
 	transform: translate(0px, -0px);
 	animation: psycho .0666s infinite;
 	transition: text-shadow 2s ease;
 }
 
-.contact_me:hover {
+.me:hover {
 	color: cyan;
 	animation: psycho .5777s infinite;
 	transform: translate(0px, -0px);
