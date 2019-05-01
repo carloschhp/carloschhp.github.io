@@ -1,10 +1,23 @@
 jQuery(document).ready(function($) {
 
-	var contact_me    = $(".contact_me");
-	var content_block = $(".content");
+	var body      = $("body");
+	var contactme = $(".me");
+	var close     = $(".information__content__close");
 
-	$(contact_me).hover(function(){
-		$(content_block).toggleClass("content--bg");
+	$(contactme).on('click', function(){
+		$(body).addClass("overlay-active");
 	});
+
+	$(close).on('click', function(){
+		$(body).removeClass("overlay-active");
+	});
+
+	$(document).on('keyup',function(e) {
+	    if (e.keyCode == 27) {
+	       $(body).removeClass("overlay-active");
+	    }
+	});
+
+
 	
 });
