@@ -1,0 +1,347 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"ife\tif … else"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 917,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.scss",
+			"settings":
+			{
+				"buffer_size": 1106,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "main.scss"
+			}
+		},
+		{
+			"contents": "jQuery(document).ready(function($) {\n\n\tvar contact_me    = $(\".contact_me\");\n\tvar content_block = $(\".content\");\n\n\t$(contact_me).hover(function(){\n\t\t$(content_block).toggleClass(\"content--bg\");\n\t});\n\n\t\n\t\n});",
+			"file": "js/main.js",
+			"file_size": 213,
+			"file_write_time": 131985269141889489,
+			"settings":
+			{
+				"buffer_size": 207,
+				"line_ending": "Windows",
+				"name": "main.js"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 184.0,
+		"history":
+		[
+			"ls",
+			"ll",
+			"pwd"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/carlo/Desktop/Projetos/yokohama"
+	],
+	"file_history":
+	[
+		"/C/Users/carlo/Desktop/Projetos/frontend/.gitignore",
+		"/C/Users/carlo/Desktop/Projetos/frontend/dist/css/main.css",
+		"/G/0.Projetos/1 - carloschhp/site/index.html",
+		"/C/Users/carlo/Desktop/Projetos/frontend/README.md",
+		"/C/Users/carlo/Desktop/Projetos/frontend/dist/js/all.min.js",
+		"/C/Users/carlo/Desktop/Projetos/frontend/gulp/gulpfile.js",
+		"/C/Users/carlo/Desktop/Projetos/frontend/gulp/package-lock.json",
+		"/C/Users/carlo/Desktop/Projetos/frontend/gulp/package.json",
+		"/G/0.Projetos/chhpfrontend/FTP/index.html",
+		"/C/Users/carlo/Desktop/Projetos/devlab/index.html",
+		"/C/Users/carlo/Desktop/Projetos/carloschhp/carloschhp.github.io/index.html",
+		"/C/Users/carlo/Desktop/Projetos/editora/wp-content/themes/editora-positivo-child-geral/page-ingles.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/MAMP/conf/extra/httpd-vhosts.conf",
+		"/C/Users/carlo/Desktop/git-prompt.sh",
+		"/C/Users/carlo/Documents/git-prompt___bkp.sh",
+		"/C/Program Files/Git/etc/bash.bashrc",
+		"/C/Users/carlo/Desktop/Projetos/developlab/wp-content/themes/twentynineteen/index.php",
+		"/C/MAMP/conf/php7.2.10/php.ini",
+		"/C/Program Files/Git/etc/profile",
+		"/C/MAMP/conf/apache/httpd.conf",
+		"/C/MAMP/logs/mysql_error_log.err",
+		"/C/Users/carlo/Desktop/Bkp mamp/php.ini",
+		"/C/Users/carlo/Desktop/Bkp mamp/httpd-vhosts.conf",
+		"/C/Users/carlo/Desktop/Bkp mamp/httpd.conf",
+		"/C/MAMP/bin/apache/conf/httpd.conf",
+		"/C/MAMP/bin/php/php7.2.10/php.ini-production",
+		"/C/MAMP/bin/php/php7.2.10/php.ini-development",
+		"/C/MAMP/conf/apache/extra/httpd-vhosts.conf",
+		"/C/MAMP/logs/apache_error.log",
+		"/C/MAMP/logs/php_error.log",
+		"/C/MAMP/logs/debug.log",
+		"/C/MAMP/logs/mampapp.log",
+		"/C/Users/carlo/Desktop/Projetos/editorapositivo.sql",
+		"/C/Users/carlo/Desktop/Projetos/info.php",
+		"/C/Users/carlo/Desktop/Projetos/adminer.php",
+		"/C/Users/carlo/Desktop/Projetos/developlab/wp-content/themes/twentynineteen/header.php",
+		"/C/Users/carlo/Desktop/Projetos/developlab/wp-content/themes/twentynineteen/js/customize-controls.js"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 134.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scssFiles",
+			"letrix",
+			"contato"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								791,
+								791
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								523,
+								523
+							]
+						],
+						"settings":
+						{
+							"auto_name": "main.scss",
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								207,
+								207
+							]
+						],
+						"settings":
+						{
+							"auto_name": "main.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "frontend.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 319.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
