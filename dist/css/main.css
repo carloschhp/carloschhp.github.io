@@ -8,7 +8,7 @@ body {
   height: 100%;
 }
 
-.content {
+.contact {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -22,13 +22,12 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   height: 100%;
-  background-image: url(../../img/bgwaves.gif);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
 }
 
-.content:before {
+.contact:before {
   content: '';
   display: block;
   background: black;
@@ -40,7 +39,7 @@ body {
   transition: all 3s ease;
 }
 
-.content--bg:before {
+.contact--bg:before {
   background: rgba(0, 0, 0, 0.85);
 }
 
@@ -50,7 +49,7 @@ span {
   font-size: 14px;
 }
 
-.contact_me {
+.me {
   cursor: pointer;
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
@@ -62,7 +61,7 @@ span {
   transition: text-shadow 2s ease;
 }
 
-.contact_me:hover {
+.me:hover {
   color: cyan;
   -webkit-animation: psycho .5777s infinite;
   animation: psycho .5777s infinite;

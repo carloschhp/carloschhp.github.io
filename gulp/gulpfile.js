@@ -23,6 +23,7 @@ var cssDest = '../dist/css';
 
 // JS origem
 var jsFiles = [
+  'node_modules/jquery/dist/jquery.min.js',
   '../js/*.js'
 ];
 
