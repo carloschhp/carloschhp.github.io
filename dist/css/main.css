@@ -10,12 +10,17 @@ body {
 }
 
 h1 {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+h2 {
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .global__title {
-  color: #00ffaf;
+  color: #00f1ff;
   text-align: center;
 }
 
@@ -78,16 +83,18 @@ span {
   height: 100%;
   opacity: 0;
   visibility: hidden;
-  -webkit-transform: scale(0.5);
-  -ms-transform: scale(0.5);
-  transform: scale(0.5);
+  -webkit-transform: scale(0.2);
+  -ms-transform: scale(0.2);
+  transform: scale(0.2);
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
   transition: all .3s ease;
 }
 
 .information .information__content {
-  width: 100%;
+  max-width: 100%;
+  width: -webkit-calc(100% - 30px);
+  width: calc(100% - 30px);
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -106,6 +113,11 @@ span {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  padding: 0px 15px;
+}
+
+.information .information__content__image img {
+  max-width: 300px;
 }
 
 .overlay-active .information {
@@ -140,6 +152,16 @@ span {
   transition: all .3s ease;
 }
 
+@media (max-width: 990px) {
+  .information__content__close {
+    right: unset;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+  }
+}
+
 .information__content__close:after {
   content: "";
   display: block;
@@ -148,7 +170,7 @@ span {
   -webkit-transform: translate(0px, 0px) rotate(45deg);
   -ms-transform: translate(0px, 0px) rotate(45deg);
   transform: translate(0px, 0px) rotate(45deg);
-  background-color: #ff94e4;
+  background-color: #ff4e79;
   position: absolute;
   -webkit-transition: all .5s ease;
   -o-transition: all .5s ease;
@@ -163,7 +185,7 @@ span {
   -webkit-transform: translate(0px, 0px) rotate(-45deg);
   -ms-transform: translate(0px, 0px) rotate(-45deg);
   transform: translate(0px, 0px) rotate(-45deg);
-  background-color: #ff94e4;
+  background-color: #ff4e79;
   position: absolute;
   -webkit-transition: all .5s ease;
   -o-transition: all .5s ease;
