@@ -1,10 +1,16 @@
 jQuery(document).ready(function($) {
 
-	var body      = $("body");
-	var contactme = $(".me");
-	var close     = $(".information__content__close");
+	var body         = $("body");
+	var contactme    = $(".me");
+	var open_details = $(".contact__content__open-details");
+	var close        = $(".information__content__close");
 
 	$(contactme).on('click', function(){
+		$(body).addClass("overlay-active");
+	});
+
+	$(open_details).on('click', function(e){
+		e.preventDefault();
 		$(body).addClass("overlay-active");
 	});
 
