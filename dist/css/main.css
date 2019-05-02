@@ -201,8 +201,46 @@ span {
   padding: 0px 15px;
 }
 
+.information .information__content h1 {
+  margin-top: 80px;
+}
+
 .information .information__content .information__content__image img {
   max-width: 100px;
+}
+
+.information .information__content .information__content__skills {
+  width: 100%;
+  max-width: 420px;
+}
+
+.information .information__content .information__content__skills ul {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.information .information__content .information__content__skills ul li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 20px;
+}
+
+.information .information__content .information__content__skills ul li span {
+  font-size: 9px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.information .information__content .information__content__skills .information__content__skills__title {
+  margin-bottom: 20px;
 }
 
 .overlay-active .information {
@@ -255,7 +293,7 @@ span {
   -webkit-transform: translate(0px, 0px) rotate(45deg);
   -ms-transform: translate(0px, 0px) rotate(45deg);
   transform: translate(0px, 0px) rotate(45deg);
-  background-color: #e660ff;
+  background-color: #00f1ff;
   position: absolute;
   -webkit-transition: all .5s ease;
   -o-transition: all .5s ease;
@@ -270,7 +308,7 @@ span {
   -webkit-transform: translate(0px, 0px) rotate(-45deg);
   -ms-transform: translate(0px, 0px) rotate(-45deg);
   transform: translate(0px, 0px) rotate(-45deg);
-  background-color: #e660ff;
+  background-color: #00f1ff;
   position: absolute;
   -webkit-transition: all .5s ease;
   -o-transition: all .5s ease;
@@ -281,16 +319,16 @@ span {
   -webkit-transform: translate(0px, 0px) rotate(225deg);
   -ms-transform: translate(0px, 0px) rotate(225deg);
   transform: translate(0px, 0px) rotate(225deg);
-  -webkit-box-shadow: -4px 4px 0px 0px #60ff99;
-  box-shadow: -4px 4px 0px 0px #60ff99;
+  -webkit-box-shadow: -4px 4px 0px 0px #ff60b1;
+  box-shadow: -4px 4px 0px 0px #ff60b1;
 }
 
 .information__content__close:hover:before {
   -webkit-transform: translate(0px, 0px) rotate(-225deg);
   -ms-transform: translate(0px, 0px) rotate(-225deg);
   transform: translate(0px, 0px) rotate(-225deg);
-  -webkit-box-shadow: -4px -4px 0px 0px #60ff99;
-  box-shadow: -4px -4px 0px 0px #60ff99;
+  -webkit-box-shadow: -4px -4px 0px 0px #ff60b1;
+  box-shadow: -4px -4px 0px 0px #ff60b1;
 }
 
 .contact__image {
