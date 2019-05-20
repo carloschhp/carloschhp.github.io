@@ -11,7 +11,11 @@ var autoprefixer = require('gulp-autoprefixer');
 
 // Sass origem
 var scssFiles = [
-	'../css/*.scss'
+  'node_modules/bootstrap/scss/bootstrap-reboot.scss',
+  'node_modules/bootstrap/scss/bootstrap-grid.scss',
+  'node_modules/owl.carousel/dist/assets/owl.carousel.min.css',
+  '../src/fonts/scss/*.scss',
+	'../src/css/*.scss'
 ];
 
 // Sass destino
@@ -24,11 +28,24 @@ var cssDest = '../dist/css';
 // JS origem
 var jsFiles = [
   'node_modules/jquery/dist/jquery.min.js',
-  '../js/*.js'
+  'node_modules/owl.carousel/dist/owl.carousel.min.js',
+  '../src/js/*.js'
 ];
 
 // JS destino
 var jsDest = '../dist/js';
+
+// Fonts origem
+var fontsOrigin = '../src/fonts/webfonts/*';
+
+// Fonts destino
+var fontsDest = '../dist/fonts/webfonts';
+
+// Images origem
+var imgOrigin = '../src/img/*';
+
+// Images destino
+var imgDest = '../dist/img';
 
 // ####################
 // ####################
@@ -85,6 +102,14 @@ gulp.task('jsprod', function() {
     .pipe(gulp.dest(jsDest))
 });
 
+gulp.task('copy', function () {
+    gulp.src(fontsOrigin)
+        .pipe(gulp.dest(fontsDest));
+
+    gulp.src(imgOrigin)
+        .pipe(gulp.dest(imgDest));
+});
+
 gulp.task('watch', function() {
 
   // gulp.watch(['../*.php', '../**/*.php']).on('change', function(file) {
@@ -102,4 +127,4 @@ gulp.task('watch', function() {
 /*
  * Default
  */
-gulp.task('default', ['sassdev', 'sassprod', 'jsprod', 'watch']);
+gulp.task('default', ['sassdev', 'sassprod', 'jsprod', 'copy', 'watch']);
